@@ -1,0 +1,149 @@
+/* CSS reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* styling frame */
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: rgb(63, 175, 130);
+  color: #333;
+}
+
+/* Style hamburger */
+.hamburger {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* make lines */
+.line {
+  background-color: white;
+  padding: 4px;
+  margin: 6px;
+  width: 90px;
+  border: 2px solid black;
+  border-radius: 8px;
+  transition: all 500ms;
+}
+
+/* FORWARD ANIMATION */
+.hamburger.open .top {
+  animation: top 0.6s ease-in-out forwards;
+}
+
+.hamburger.open .middle {
+  animation: middle 0.6s ease-in-out forwards;
+}
+
+.hamburger.open .bottom {
+  animation: bottom 0.6s ease-in-out forwards;
+}
+
+/* top line animation */
+@keyframes top {
+  0% {
+    transform: translateY(0px) rotate(0);
+  }
+  50% {
+    transform: translateY(24px) rotate(0);
+  }
+  100% {
+    transform: translateY(24px) rotate(45deg);
+  }
+}
+
+/* middle line animation */
+@keyframes middle {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* bottom line animation */
+@keyframes bottom {
+  0% {
+    transform: translateY(0px) rotate(0);
+  }
+  50% {
+    transform: translateY(-24px) rotate(0);
+  }
+  100% {
+    transform: translateY(-24px) rotate(130deg);
+  }
+}
+
+/* REVERSE ANIMATION */
+.hamburger.close .top {
+  animation: topR 0.6s ease-in-out forwards;
+}
+
+.hamburger.close .middle {
+  animation: middleR 0.6s ease-in-out forwards;
+}
+
+.hamburger.close .bottom {
+  animation: bottomR 0.6s ease-in-out forwards;
+}
+
+/* top line animation */
+@keyframes topR {
+  0% {
+    transform: translateY(24px) rotate(45deg);
+  }
+  50% {
+    transform: translateY(24px) rotate(0);
+  }
+  100% {
+    transform: translateY(0px) rotate(0);
+  }
+}
+
+/* middle line animation */
+@keyframes middleR {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* bottom line */
+@keyframes bottomR {
+  0% {
+    transform: translateY(-24px) rotate(130deg);
+  }
+  50% {
+    transform: translateY(-24px) rotate(0);
+  }
+  100% {
+    transform: translateY(0px) rotate(0);
+  }
+}
