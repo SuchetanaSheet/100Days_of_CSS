@@ -13,3 +13,9 @@
 
 ### ✅ Day 2: 
 - The pendulum (https://github.com/SuchetanaSheet/100Days_of_CSS/tree/main/Day2)
+- DEMO: (https://suchetanasheet.github.io/100Days_of_CSS/Day2/ball.html)
+
+<iframe
+  src="https://codepen.io/suchetanasheet/embed/dyOgPzo"
+  style="width:100%; height:300px;"
+></iframe>
