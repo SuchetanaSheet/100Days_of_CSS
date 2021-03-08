@@ -7,7 +7,7 @@
 - DEMO: (https://suchetanasheet.github.io/100Days_of_CSS/Day1/candle.html)
 
 <iframe
-  src="https://codepen.io/team/codepen/embed/preview/GRNXLMr"
+  src="https://codepen.io/suchetanasheet/embed/GRNXLMr"
   style="width:100%; height:300px;"
 ></iframe>
 
