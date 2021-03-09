@@ -25,3 +25,15 @@
   ### ✅Day85:
   - Pendulum: https://github.com/SuchetanaSheet/100Days_of_CSS/tree/main/Day2
   - Demo: https://codepen.io/suchetanasheet/pen/PobyVQe?editors=1100
+
+  <p align="center">
+ <img src="assets\Day85.gif" width="250">
+ </p>
+
+   ### ✅Day87:
+  - Pendulum: https://github.com/SuchetanaSheet/100Days_of_CSS/tree/main/Day2
+  - Demo: https://codepen.io/suchetanasheet/pen/PobyVQe?editors=1100
+
+  <p align="center">
+ <img src="assets\Day87.gif" width="250">
+ </p>
