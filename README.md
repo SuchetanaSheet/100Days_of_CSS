@@ -1,6 +1,6 @@
 <p align="center">
  <img src="assets\header.PNG" width="800">
- <br></br>
+ 
  </p>
  <h1 align="center">100Days_of_CSS</h1>
 
@@ -20,6 +20,14 @@
 
   <p align="center">
  <img src="assets\Day2.gif" width="250">
+ </p>
+
+  ### ✅Day3:
+  - Cirle with circles inside: https://github.com/SuchetanaSheet/100Days_of_CSS/tree/main/Day2
+  - Demo: https://codepen.io/suchetanasheet/pen/PobyVQe?editors=1100
+
+  <p align="center">
+ <img src="assets\Day3.gif" width="250">
  </p>
 
   ### ✅Day85:
