@@ -1,0 +1,118 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+  background: #272C34;
+  color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+	background-color: black;
+}
+
+.pyramide {
+	background-color: #F0DE75;
+	width: 400px;
+	height: 400px;
+	clip-path: circle(90px at center);
+	animation: pyramide 5s infinite cubic-bezier(0.3, 0, .5 , 1);
+}
+
+.sky {
+	background-color: #7DDFFC;
+	width: 100%;
+	height: 58%;
+}
+
+.sun {
+	position: absolute;
+	background-color: #FAEF00;
+	top: 150px;
+	left: 95px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	transform-origin: 120px 120px;
+	animation: sun-walk 5s infinite cubic-bezier(0.3, 0, .5 , 1);
+}
+
+.pyramide-left {
+	position: absolute;
+	top: 153px;
+	left: 145px;
+	width: 70px;
+	height: 80px;
+	background-color: #fff;
+	clip-path: polygon(70% 24%, 0% 100%, 100% 100%);
+	animation: pyr-left 5s infinite cubic-bezier(0.3, 0, .5 , 1);
+}
+
+.pyramide-right {
+	position: absolute;
+	top: 153px;
+	left: 175px;
+	width: 70px;
+	height: 80px;
+	background-color: #E0E0E0;
+	clip-path: polygon(26% 24%, 0% 100%, 100% 100%);
+	animation: pyr-right 5s infinite cubic-bezier(0.3, 0, .5 , 1);	
+}
+
+.shadow {
+	position: absolute;
+	top: 232px;
+	left: 110px;
+	width: 180px;
+	height: 80px;
+	background-color: rgba(0,0,0,0.5);
+	clip-path: polygon(33px 0, 135px 0, 100% 30%);
+	animation: anim-shadow 5s infinite cubic-bezier(0.3, 0, .5 , 1);	
+}
+
+@keyframes sun-walk {
+	0% { transform: rotate(20deg) }
+	100% { transform: rotate(380deg)}
+}
+
+@keyframes pyr-left {
+	0% { background-color: #fff; }
+	30% { background-color: #E0E0E0;}
+}
+
+@keyframes pyr-right {
+	0% { background-color: #E0E0E0; }
+	30% { background-color: #fff;}
+	100% { background-color: #E0E0E0; }
+}
+
+@keyframes anim-shadow {
+	0% { clip-path: polygon(33px 0, 135px 0, 100% 30%); }
+	20% { clip-path: polygon(33px 0, 135px 0, 00% 10%); }
+	70% { clip-path: polygon(33px 0, 135px 0, 100% 10%); }
+ 	100% { clip-path: polygon(33px 0, 135px 0, 100% 30% ); }
+}
+
+@keyframes pyramide {
+	0% { opacity: 1; }
+	15% { opacity: 1; }
+	35% { opacity: 0; }
+	70% { opacity: 0; }
+ 	90% { opacity: 1}
+}
