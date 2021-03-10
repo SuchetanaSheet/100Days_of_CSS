@@ -7,14 +7,14 @@
 ### Reference:
   - https://100dayscss.com/
 
-  ### ✅Day1:
+  ### ✅Day01:
   - Hamburger Icon: https://github.com/SuchetanaSheet/100Days_of_CSS/tree/main/Day1
   - Demo: https://codepen.io/suchetanasheet/pen/rNWqGvO
  <p align="center">
  <img src="assets\Day1.gif" width="250">
  </p>
 
- ### ✅Day2:
+ ### ✅Day02:
   - Sunrise to sunset: https://github.com/SuchetanaSheet/100Days_of_CSS/tree/main/Day2
   - Demo: https://codepen.io/suchetanasheet/pen/PobyVQe?editors=1100
 
@@ -22,7 +22,7 @@
  <img src="assets\Day2.gif" width="250">
  </p>
 
-  ### ✅Day3:
+  ### ✅Day03:
   - Circle with circles inside: https://github.com/SuchetanaSheet/100Days_of_CSS/tree/main/Day3
   - Demo: https://codepen.io/suchetanasheet/pen/BaQqbwX
 
@@ -31,7 +31,7 @@
  </p>
 
  ### ✅Day22:
-  - Circle with circles inside: https://github.com/SuchetanaSheet/100Days_of_CSS/tree/main/Day3
+  - Memories: https://github.com/SuchetanaSheet/100Days_of_CSS/tree/main/Day22
   - Demo: https://codepen.io/suchetanasheet/pen/GRNwGPQ?editors=1100
 
   <p align="center">
