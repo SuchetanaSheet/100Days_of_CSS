@@ -16,7 +16,7 @@
 
  ### ✅Day02:
   - Sunrise to sunset: https://github.com/SuchetanaSheet/100Days_of_CSS/tree/main/Day2
-  - Demo: https://codepen.io/suchetanasheet/pen/PobyVQe?editors=1100
+  - Demo: https://codepen.io/suchetanasheet/pen/ExNdGJB
 
   <p align="center">
  <img src="assets\Day2.gif" width="250">
