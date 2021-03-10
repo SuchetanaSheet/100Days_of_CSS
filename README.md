@@ -23,24 +23,24 @@
  </p>
 
   ### ✅Day3:
-  - Cirle with circles inside: https://github.com/SuchetanaSheet/100Days_of_CSS/tree/main/Day2
-  - Demo: https://codepen.io/suchetanasheet/pen/PobyVQe?editors=1100
+  - Circle with circles inside: https://github.com/SuchetanaSheet/100Days_of_CSS/tree/main/Day3
+  - Demo: https://codepen.io/suchetanasheet/pen/BaQqbwX
 
   <p align="center">
  <img src="assets\Day3.gif" width="250">
  </p>
 
   ### ✅Day85:
-  - Pendulum: https://github.com/SuchetanaSheet/100Days_of_CSS/tree/main/Day2
-  - Demo: https://codepen.io/suchetanasheet/pen/PobyVQe?editors=1100
+  - Pendulum: https://github.com/SuchetanaSheet/100Days_of_CSS/tree/main/Day85
+  - Demo: https://codepen.io/suchetanasheet/pen/dyOgPzo0
 
   <p align="center">
  <img src="assets\Day85.gif" width="250">
  </p>
 
    ### ✅Day87:
-  - Pendulum: https://github.com/SuchetanaSheet/100Days_of_CSS/tree/main/Day2
-  - Demo: https://codepen.io/suchetanasheet/pen/PobyVQe?editors=1100
+  - Candle: https://github.com/SuchetanaSheet/100Days_of_CSS/tree/main/Day87
+  - Demo: https://codepen.io/suchetanasheet/pen/GRNXLMr=1100
 
   <p align="center">
  <img src="assets\Day87.gif" width="250">
