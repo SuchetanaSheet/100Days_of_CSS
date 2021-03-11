@@ -1,0 +1,138 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+.frame {
+ filter: contrast(20);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+  background: #000000;
+  color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+@keyframes rotate
+{
+	0% {}
+	100% {transform: rotate(360deg)}
+}
+.bubble{
+	animation: rotate 3s infinite ease-in-out;
+	position: absolute;
+	border-radius:50%;
+	background: #fff;
+	filter: blur(5px);
+}
+
+.sparkle{
+	 position: absolute;
+	top:40%;
+	left:40%;
+	animation: rotate 9s infinite ease-in-out;
+	border-radius:50%;
+	background: #fff;
+	filter: blur(5px);
+}
+
+
+.bub-1{
+	width:90px;
+	height:90px;
+}
+
+.bub-2{
+  left:20%;
+	transform-origin: 40% 50%;
+	width:60px;
+	height:60px;
+}
+
+.bub-3{
+	transform-origin: 40% 50%;
+	animation: rotate 3s infinite ease-in-out;
+	width:60px;
+	height:60px;
+}
+
+.bub-4{
+	left:40%;
+	transform-origin: 40% 50%;
+	animation: rotate 2s infinite ease-in-out;
+	width:60px;
+	height:60px;
+}
+
+
+.sparkle-1{
+	transform-origin: 0% 600%;
+	width:15px;
+	height:15px;
+}
+
+.sparkle-2{
+	animation-duration:5s;
+	animation-delay: 2s;
+	transform-origin: 130% 140%;
+	width:25px;
+	height:25px;
+}
+
+.sparkle-3{
+	animation-duration:5s;
+	animation-delay: 0.5s;
+	transform-origin: 500% 600%;
+	width:15px;
+	height:15px;
+}
+
+.sparkle-4{
+	transform-origin: 700% 600%;
+	width:13px;
+	height:13px;
+}
+
+.sparkle-5{animation-delay: 1s;
+	transform-origin: 400% 600%;
+	width:15px;
+	height:15px;
+}
+
+.sparkle-6{
+	animation-duration:5s;
+	top:80%;
+	transform-origin: -200% -600%;
+	width:15px;
+	height:15px;
+}
+
+.sparkle-7{
+	animation-delay: 2s;
+	transform-origin: -300% -300%;
+	width:13px;
+	height:13px;
+}
+
+.sparkle-8{
+	transform-origin: -300% -500%;
+	width:15px;
+	height:15px;
+}
+
