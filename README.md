@@ -46,6 +46,15 @@
  <img src="assets\Day22.gif" width="250">
  </p>
 
+  ### ✅Day69:
+  - Calender : https://github.com/SuchetanaSheet/100Days_of_CSS/tree/main/Day69
+  - Demo: https://codepen.io/suchetanasheet/pen/PobgYOP
+
+  <p align="center">
+ <img src="assets\Day69.gif" width="250">
+ </p>
+
+
   ### ✅Day85:
   - Pendulum: https://github.com/SuchetanaSheet/100Days_of_CSS/tree/main/Day85
   - Demo: https://codepen.io/suchetanasheet/pen/dyOgPzo0
