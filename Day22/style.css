@@ -10,7 +10,7 @@
 	border-radius: 2px;
 	box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
 	overflow: hidden;
-	background: #117864 ;
+	background: #117863 ;
 	color: #fff;
 	font-family: "Open Sans", Helvetica, sans-serif;
 }
@@ -22,7 +22,7 @@
 	width: 50px;
 	top: 175px;
 	left: 175px;
-	background: #fff;
+	background: rgb(255, 255, 255);
 	border-radius: 50%;
 	animation: circle 1s ease-in-out;
 	animation-fill-mode: forwards;
@@ -34,7 +34,7 @@
 	width: 150px;
 	height: 4px;
 	top: 198px;
-	background: #fff;
+	background: rgb(255, 255, 255);
 	transform: scaleX(0);
 }
 .line.left {
