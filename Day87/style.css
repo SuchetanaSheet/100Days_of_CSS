@@ -1,0 +1,117 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+  background:#fad6a5;
+  color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+	width:192px;
+	height:126px;
+  transform: translate(-50%,-50%);
+}
+.bottom-left{
+	position:absolute;
+	border-style:solid;
+	left:0px;bottom:0px;width:0px;
+	height:0px;z-index:2;
+	border-color:#9e0707 transparent transparent transparent;
+	border-width:84px 0px 0px 96px;
+}
+.bottom-right{
+	position:absolute;
+	border-style:solid;
+	right:0px;bottom:0px;width:0px;
+	height:0px;z-index:2;
+	border-color:darkred transparent transparent transparent;
+	border-width:84px 96px 0px 0px;
+	
+}
+.bottom-middle{
+	position:absolute;
+	border-style:solid;
+	left:54px;bottom:0px;width:0px;
+	height:0px;z-index:2;
+	border-color:#A51012 transparent transparent transparent;
+	border-width:84px 42px 0px 42px;
+	
+}
+.top-left-left{
+	position:absolute;
+	border-style:solid;top:0px;
+	left:0px;bottom:0px;width:0px;
+	height:0px;z-index:2;
+	border-color:transparent  transparent crimson transparent;
+	border-width:0px 22px 42px 32px;
+}
+.top-left{
+	position:absolute;
+	z-index:1;
+	width:64px;
+	height:42px;
+	background:#A51012;
+	top:0px;
+	left:32px;
+}
+.top-middle{
+		position:absolute;
+	border-style:solid;top:0px;
+	left:54px;bottom:0px;width:0px;
+	height:0px;z-index:2;
+	border-color:transparent  transparent crimson transparent;
+	border-width:0px 42px 42px 42px;
+}
+.top-right{
+	position:absolute;
+	right:32px;
+	z-index:1;
+	width:64px;
+	height:42px;
+	background:#F58181;
+	top:0px;
+	overflow:hidden;
+}
+.top-right-right{
+	position:absolute;
+	border-style:solid;top:0px;
+	right:0px;bottom:0px;width:0px;
+	height:0px;z-index:2;
+	border-color:transparent  transparent crimson transparent;
+	border-width:0px 32px 42px 22px;
+}
+.sparkle{
+position: absolute;
+width: 4px;
+height: 80px;
+top: -40px;
+left: 30px;
+background: #FFDFDF;
+transform: rotate(-44deg) translateX(-30px);
+animation: flash 3s linear infinite both;
+box-shadow: 0 0 5px 0 #FFDFDF;
+}
+@keyframes flash{
+0% {
+    transform: rotate(-44deg) translateX(-30px);
+}
+10%, 100% {
+    transform: rotate(-44deg) translateX(30px);
+	}}
+
