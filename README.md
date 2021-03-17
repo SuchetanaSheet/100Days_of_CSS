@@ -62,11 +62,19 @@
   <p align="center">
  <img src="assets\Day85.gif" width="250">
  </p>
-
-   ### ✅Day88:
+ 
+   ### ✅Day87:
   - Candle: https://github.com/SuchetanaSheet/100Days_of_CSS/tree/main/Day87
-  - Demo: https://codepen.io/suchetanasheet/pen/GRNXLMr=1100
+  - Demo: https://codepen.io/suchetanasheet/pen/QWGRQep?editors=110
 
   <p align="center">
  <img src="assets\Day87.gif" width="250">
+ </p>
+
+   ### ✅Day88:
+  - Candle: https://github.com/SuchetanaSheet/100Days_of_CSS/tree/main/Day88
+  - Demo: https://codepen.io/suchetanasheet/pen/GRNXLMr=1100
+
+  <p align="center">
+ <img src="assets\Day88.gif" width="250">
  </p>
