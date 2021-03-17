@@ -63,7 +63,7 @@
  <img src="assets\Day85.gif" width="250">
  </p>
 
-   ### ✅Day87:
+   ### ✅Day88:
   - Candle: https://github.com/SuchetanaSheet/100Days_of_CSS/tree/main/Day87
   - Demo: https://codepen.io/suchetanasheet/pen/GRNXLMr=1100
 
