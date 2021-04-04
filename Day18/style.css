@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+  color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+@mixin circle($number) {
+  
+  $top-position: 180px;
+  $left-starter-position: 108px;
+  $margin-circles: 60px;
+  $left-position: $left-starter-position + (($number - 1) * $margin-circles);
+  $translate-selected: ($number - 1) * $margin-circles;
+  $translate-background: -400px * ($number - 1);
+
+  .circle.is-selected {
+    top: $top-position + 5px;
+    left: $left-starter-position + 5px;
+  }
+  
+  .circle[for=circle-#{$number}] {
+    position: absolute;
+    top: $top-position;
+    left: $left-position;
+  }
+  
+  #circle-#{$number}:checked {
+     & ~ .is-selected {
+      transform: translateX($translate-selected);
+     }
+    
+    & ~ .background {
+      transform: translateX($translate-background);
+    }
+  }
+}
+
+@include circle(1);
+@include circle(2);
+@include circle(3);
+
+.circle {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 100%;
+  border: 2px solid #fff;
+  cursor: pointer;
+  z-index: 2;
+  
+  &.is-selected {
+    width: 30px;
+    height: 30px;
+    background: white;
+    position: absolute;
+    cursor: unset;
+    transition: all 1s ease;
+  }
+}
+
+.background {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  transition: all 1s ease;
+  
+  &.is-background-purple {
+    background-color: #9b59b6;
+    top: 0;
+    left: 0;
+  } 
+  
+  &.is-background-blue {
+    background: #3498db;
+    left: 100%;
+    top: 0;
+  } 
+  
+  &.is-background-green {
+    background: #1abc9c;
+    top: 0;
+    left: 200%;
+  } 
+}
